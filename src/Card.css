@@ -55,6 +55,7 @@
     gap: 0.5em;
     padding-left: 1em;
     align-items: flex-start;
+    justify-content: flex-end;
 }
 
 .tag {
