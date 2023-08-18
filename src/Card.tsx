@@ -20,7 +20,7 @@ function Card(props: {
     const tags = [...props.languages]
     tags.push(props.role)
     tags.push(props.level)
-    const logo = "." + props.logo
+    const logo = props.logo
     return (
         <div className={props.featured ? "card feat" : "card"}>
             <img src={logo} alt="logo" />
