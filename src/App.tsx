@@ -23,7 +23,6 @@ function App() {
           <img src="./images/bg-header-mobile.svg" alt="background image" />
         </picture>
       </div>
-
       <main>
 
         {!!tagList.length && <div className="taglist">
