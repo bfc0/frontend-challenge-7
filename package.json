@@ -1,15 +1,19 @@
 {
-  "name": "challenge-9",
+  "name": "challenge-7",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://bfc0.github.io/frontend-challenge-7/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "tsc && vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

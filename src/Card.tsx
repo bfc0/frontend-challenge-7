@@ -1,8 +1,22 @@
 import './Card.css'
 
-function Card(props) {
+function Card(props: {
+    "id": number,
+    "company": string,
+    "logo": string,
+    "new": boolean,
+    "featured": boolean,
+    "position": string,
+    "role": string,
+    "level": string,
+    "postedAt": string,
+    "contract": string,
+    "location": string,
+    "languages": Array<string>,
+    "tools": Array<string>,
+    "setter": (a: string) => void
+}) {
     console.log(props)
-    // return (<div>{JSON.stringify(props)}</div>)
     const tags = [...props.languages]
     tags.push(props.role)
     tags.push(props.level)
