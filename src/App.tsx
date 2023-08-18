@@ -19,8 +19,8 @@ function App() {
     <>
       <div className="header">
         <picture>
-          <source media="(min-width:1000px)" srcSet="/images/bg-header-desktop.svg" />
-          <img src="/images/bg-header-mobile.svg" alt="background image" />
+          <source media="(min-width:1000px)" srcSet="./images/bg-header-desktop.svg" />
+          <img src="./images/bg-header-mobile.svg" alt="background image" />
         </picture>
       </div>
 
