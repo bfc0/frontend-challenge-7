@@ -4,7 +4,7 @@
     margin-block: 1em;
     padding: 1em;
     width: 100%;
-    padding-block: 3em;
+    padding-block: 2em;
     border-radius: 0.4em;
     position: relative;
     padding-bottom: 1em;
@@ -53,11 +53,10 @@
     display: flex;
     flex-flow: row wrap;
     gap: 0.5em;
-    padding-left: 1em;
+    /* padding-left: 1em; */
     align-items: flex-start;
-    justify-content: flex-end;
-    justify-self: flex-end;
-    margin-left: auto;
+    justify-content: flex-start;
+
 }
 
 .tag {
@@ -102,6 +101,10 @@
         display: flex;
         flex-flow: row wrap;
         align-items: center;
+        justify-content: flex-end;
+        justify-self: flex-end;
+        margin-left: auto;
+        padding-left: 1em;
     }
 
     .card__opts {

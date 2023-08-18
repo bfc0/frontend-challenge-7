@@ -16,7 +16,7 @@ function Card(props: {
     "tools": Array<string>,
     "setter": (a: string) => void
 }) {
-    console.log(props)
+    // console.log(props)
     const tags = [...props.languages]
     tags.push(props.role)
     tags.push(props.level)

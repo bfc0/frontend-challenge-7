@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import data from "../data.json"
 import Card from "./Card"
-console.log(data)
+// console.log(data)
 
 function App() {
   const [tagList, setTagList] = useState<Array<string>>([])
